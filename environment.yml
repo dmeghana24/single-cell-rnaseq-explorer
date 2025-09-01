@@ -1,0 +1,14 @@
+name: scrnaseq-pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.2
+  - r-seurat=4.3
+  - r-dplyr
+  - r-tidyr
+  - r-shiny
+  - python=3.10
+  - scanpy
+  - anndata
